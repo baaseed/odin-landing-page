@@ -1,0 +1,159 @@
+html,
+body {
+  margin: 0;
+  font-family: Roboto;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #1f2937;
+  padding: 8px 0;
+}
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 160px;
+}
+.header h2,
+.links p {
+  margin: 0;
+}
+.header h2 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.section {
+  flex: 1;
+}
+.section1 {
+  background-color: #1f2937;
+}
+.section1 h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+.section1 button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 900;
+  max-width: 115px;
+}
+.section1 img {
+  max-height: 250px;
+  width: auto;
+  object-fit: cover;
+}
+.section1 p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.section1-all {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.section1-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+.section2 {
+}
+.section2 div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section2 h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+.section2 img {
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
+  border: blue 2px solid;
+  border-radius: 5px;
+}
+.section2 figure {
+  text-align: center;
+}
+.section3 {
+  background-color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+}
+.quote-text {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  margin: 15px 50px 1px 50px;
+}
+.quote-author {
+  font-weight: 900;
+  font-size: 18px;
+  text-align: right;
+  padding: 0px 350px;
+  margin: 5px 20px 15px 20px;
+}
+.section4 {
+  width: 80%;
+  margin: 20px auto;
+  color: white;
+  border-radius: 20px;
+  background-color: #3882f6;
+  padding: 20px;
+}
+
+.section4 button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  border-radius: 8px;
+  border: white 1px solid;
+  font-weight: 900;
+
+  max-width: 115px;
+}
+.section4-all {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.section4 h3 {
+  margin: 0;
+}
+.section4 p {
+  margin: 0;
+}
+.footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 8px 0;
+}
